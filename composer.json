@@ -1,0 +1,17 @@
+{
+    "name": "loggi/profiling",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "loggx",
+            "email": "normdopeness@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-xhprof": "*"
+    }
+}

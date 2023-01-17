@@ -8,3 +8,5 @@ add
 "extension=xhprof.so"
 to /etc/php/8.2/cli/php.ini
 
+start the UI:
+php -S localhost:8080 -t src/profiling/xhprof_html
